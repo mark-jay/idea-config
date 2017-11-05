@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="custom-allpay">
+  <template name="SERVICE_BEAN" value="package cy.com.netinfo.netteller.bank.ejb;&#10;&#10;import javax.ejb.Stateless;&#10;&#10;/**&#10; * @author &lt;a href=&quot;mailto:mark.jay.mk@gmail.com&quot;&gt;mark jay&lt;/a&gt;&#10; * @since 11.10.17 12:38&#10; */&#10;//@TransactionManagement(TransactionManagementType.BEAN)&#10;@Stateless&#10;public class $CLASS_NAME$ServiceBean implements cy.com.netinfo.netteller.bank.ejbc.$CLASS_NAME$ServiceLocal, java.io.Serializable {&#10;    $END$@javax.ejb.EJB(mappedName=&quot;java:global/netteller-core-bank/netteller-ejb-bank/$CLASS_NAME$ServiceBean&quot;)&#10;    private $CLASS_NAME$ServiceLocal $VARIABLE_NAME$ServiceLocal;&#10;}&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VARIABLE_NAME" expression="decapitalize(CLASS_NAME)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="EJBDAO" value="@javax.ejb.EJB(mappedName = &quot;java:global/netteller-data/netteller-da-ejb/$ENTITY$Dao&quot;)&#10;protected cy.com.netinfo.netteller.daoc.$ENTITY$DaoLocal $LOWERED_ENTITY$DaoLocal;&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="ENTITY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LOWERED_ENTITY" expression="decapitalize(ENTITY)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="JAXRS_ADMIN" value="@POST&#10;@Path(&quot;$METHOD_NAME$&quot;)&#10;@LogRequest&#10;@Produces(MediaType.APPLICATION_JSON)&#10;@Consumes(MediaType.APPLICATION_FORM_URLENCODED)&#10;@ApiOperation(&#10;        value=&quot;$METHOD_NAME$&quot;,&#10;        notes=&quot;$METHOD_NAME$&quot;,&#10;        position = $POSITION$,&#10;        response = $RETURN_CLASS$&#10;)&#10;@ApiResponses(value = {&#10;        @ApiResponse(code = 400, message = &quot;General error&quot;),&#10;        @ApiResponse(code = 200, message = &quot;Ok&quot;, response = $RETURN_CLASS$.class),&#10;})&#10;@ApiImplicitParams({@ApiImplicitParam(defaultValue = &quot;77072734954&quot;, name = &quot;X-AP-Requester&quot;, value = &quot;requester's login name, for example : '77072734954'&quot;, dataType = &quot;string&quot;, paramType = &quot;header&quot;), @ApiImplicitParam(defaultValue = &quot;Bearer 77e31302-33f6-41a3-a265-a91d88e00d05&quot;, name = &quot;Authorization&quot;, value = &quot;authorization, for example 'Bearer 77e31302-33f6-41a3-a265-a91d88e00d05'&quot;, dataType = &quot;string&quot;, paramType = &quot;header&quot;)})&#10;@OAuthFilter(requiredPermission = OAuthPermission.ADMIN_PERMISSION)&#10;public $RETURN_CLASS$ $METHOD_NAME$(&#10;        @ApiParam(value = &quot;Login name&quot;) @FormParam(&quot;loginName&quot;)                         String loginName&#10;) throws GeneralException {&#10;    try {&#10;        return new $RETURN_CLASS$();&#10;    } catch (Exception e) {&#10;        throw getGeneralException(Language.RU, e);&#10;    }&#10;}" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="POSITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="SWAGGER_DATE" value="@ApiParam(value = &quot;$PARAM_NAME$&quot;, defaultValue = &quot;Wed, 01 Nov 2017 11:01:35 +0000&quot;) @FormParam(&quot;$PARAM_NAME$&quot;) Date $PARAM_NAME$" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM_NAME" expression="&quot;date&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="SWAGGER_PARAM" value="@ApiParam(value = &quot;$PARAM$&quot;) @FormParam(&quot;$PARAM$&quot;) $TYPE$ $PARAM$," toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="&quot;varName&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="&quot;String&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
+

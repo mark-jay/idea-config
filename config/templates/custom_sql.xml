@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="custom-sql">
+  <template name="INSERT_USER" value="TODO" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="UNIQUE_INDEX" value="ALTER TABLE $TABLE_NAME$&#10;ADD CONSTRAINT UNIQ_$TABLE_NAME$_$COLUMNS$ UNIQUE ($COLUMNS$);" toReformat="false" toShortenFQNames="true">
+    <variable name="TABLE_NAME" expression="&quot;TABLE_NAME&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="COLUMNS" expression="&quot;COLUMNS&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="INDEX_FILTERED" value="CREATE NONCLUSTERED INDEX IDX_$TABLE_NAME$_$COLUMNS$  &#10;    ON $TABLE_NAME$ ($COLUMNS$)  &#10;    WHERE 1 = 1 ;  &#10; " toReformat="false" toShortenFQNames="true">
+    <variable name="TABLE_NAME" expression="&quot;TABLE_NAME&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="COLUMNS" expression="&quot;COLUMNS&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+</templateSet>
+

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="custom">
+  <template name="List" value="java.util.List" description="java.util.List" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="ArrayList" value="java.util.ArrayList" description="java.util.List" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="Optional" value="java.util.Optional" description="java.util.List" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="Collectors" value="java.util.stream.Collectors" description="java.util.stream.Collectors" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="Supplier" value="java.util.function.Supplier" description="java.util.function.Supplier" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="Function" value="java.util.function.Function" description="java.util.function.Function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="HashMap" value="java.util.HashMap" description="java.util.HashMap" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="Assert" value="org.junit.Assert" description="org.junit.Assert" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="Consumer" value="java.util.function.Consumer" description="java.util.function.Consumer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="Map" value="java.util.Map" description="java.util.Map" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="Assume" value="org.junit.Assume" description="org.junit.Assume" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="getInstalce" value="private $CLASS_NAME$ getInstance() {&#10;    return new $CLASS_NAME$(); &#10;}" description="getInstance" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="LOGGER" value="private static final java.util.logging.Logger logger = Logger.getLogger($CLASS$.class.getName());" description="logger" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="serial" value="private static final long serialVersionUID = 1l;" description="serialVersionUI" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="toList" value="java.util.stream.Collectors.toList()" description="java.util.stream.Collectors.toList()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="web-xml" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;web-app xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://xmlns.jcp.org/xml/ns/javaee&quot;&#10;         xsi:schemaLocation=&quot;http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd&quot; version=&quot;3.1&quot;&gt;&#10;         &lt;display-name&gt;My Web Application&lt;/display-name&gt;&#10;&lt;/web-app&gt;" description="web-xml" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="LOGGERA" value="private static final org.apache.commons.logging.Log log = org.apache.commons.logging.LogFactory.getLog($CLASS$.class);" description="logger" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="LOGGERINT" value="@javax.interceptor.Interceptors(kz.allpay.interceptors.LoggerInterceptor.class)" description="logger interceptor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="EDITORFOLD" value="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;$DESCR$&quot;&gt;&#10;// &lt;/editor-fold&gt;" description="editor-fold comments" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCR" expression="" defaultValue="getters-setters" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="psvm" value="public static void main(String[] args) throws Exception {&#10;    $END$&#10;}" description="public static void main" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="AUTHOR" value="@author &lt;a href=&quot;mailto:mark.jay.mk@gmail.com&quot;&gt;mark jay&lt;/a&gt;" description="author=mark" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="READ_RESOURCE" value="java.io.InputStream inputStream = $CLASS$.class.getClassLoader().getResourceAsStream(&quot;$RESOURCE$&quot;);" description="read file from resources" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="RESOURCE" expression="&quot;path/to/file.txt&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="CONVERT_INPUTSTREAM_TO_STRING" value="java.util.Scanner s = new java.util.Scanner($INPUT_STREAM$).useDelimiter(&quot;\\A&quot;);&#10;String content = s.hasNext() ? s.next() : &quot;&quot;;" toReformat="false" toShortenFQNames="true">
+    <variable name="INPUT_STREAM" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="HIBERNATE_MANY_TO_ONE" value="&lt;many-to-one name=&quot;$FIELD$&quot; class=&quot;$MODEL_TO_POINT_TO$&quot; fetch=&quot;select&quot;&gt;&#10;  &lt;column name=&quot;$COLUMN_NAME$&quot; length=&quot;36&quot; sql-type=&quot;varchar(36)&quot;/&gt;&#10;&lt;/many-to-one&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="FIELD" expression="&quot;FIELD&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODEL_TO_POINT_TO" expression="&quot;MODEL_TO_POINT_TO&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="COLUMN_NAME" expression="&quot;COLUMN_NAME&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="HIBERNATE_ENUM_MAP" value="        &lt;property name=&quot;$FIELD$&quot; column=&quot;$COLUMN_NAME$&quot; not-null=&quot;true&quot;&gt;&#10;            &lt;type name=&quot;org.hibernate.type.EnumType&quot;&gt;&#10;                &lt;param name=&quot;enumClass&quot;&gt;$ENUM_CLASS$&lt;/param&gt;&#10;                &lt;param name=&quot;type&quot;&gt;12&lt;/param&gt;&#10;                &lt;param name=&quot;useNamed&quot;&gt;true&lt;/param&gt;&#10;            &lt;/type&gt;&#10;        &lt;/property&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="FIELD" expression="&quot;FIELD&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="COLUMN_NAME" expression="&quot;COLUMN_NAME&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="ENUM_CLASS" expression="&quot;$ENUM_CLASS&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="TESTNG" value="@org.testng.annotations.Test&#10;public void test$METHOD_NAME$_$WHEN_CALLED$_$SHOULD$() {&#10;    $END$&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="&quot;methodName&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="WHEN_CALLED" expression="&quot;whenCalled&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="SHOULD" expression="&quot;shouldPass&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="NOT_IMPLEMENTED" value="throw new IllegalArgumentException(&quot;not yet implemented&quot;);" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="TESTNG_PARAMETERIZED" value="@org.testng.annotations.DataProvider(name = &quot;$PROVIDER_NAME$&quot;)&#10;public static Object[][] provideDataFor$PROVIDER_NAME_CAP$() {&#10;    return new Object[][] {{1}, {2}};&#10;}&#10;&#10;@org.testng.annotations.Test(dataProvider = &quot;$PROVIDER_NAME$&quot;)&#10;public void testWith$PROVIDER_NAME_CAP$(Integer x) throws Exception {&#10;    $END$&#10;} " toReformat="false" toShortenFQNames="true">
+    <variable name="PROVIDER_NAME" expression="&quot;myProviderName&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROVIDER_NAME_CAP" expression="capitalize(PROVIDER_NAME)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
+

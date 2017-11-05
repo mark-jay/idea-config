@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="surround">
+  <template name="P" value="($SELECTION$)" description="Surround with ()" toReformat="false" toShortenFQNames="true">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="RL" value="$LOCK$.readLock().lock();&#10;try { &#10;  $SELECTION$&#10;} finally {&#10;  $LOCK$.readLock().unlock();&#10;}&#10;" description="Surround with ReadWriteLock.readLock" toReformat="true" toShortenFQNames="true">
+    <variable name="LOCK" expression="variableOfType(&quot;java.util.concurrent.locks.ReadWriteLock&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="HE" value="try {&#10;    $SELECTION$&#10;} catch (Exception ex) {&#10;    new cy.com.netinfo.netteller.handler.ExceptionHandler().catchException(ex);&#10;    return null;&#10;}" description="Handle Exception" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
+

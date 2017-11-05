@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="sh">
+  <template name="SHEBANG" value="#!/bin/bash" description="shebang" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="soutv" value="echo &quot;$VAR$ = ${$VAR$}&quot;&#10;$END$" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="CURRENT_DIR" value="# Get working directory. It is directory where this script is located&#10;# http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in&#10;# Is a useful one-liner which will give you the full directory name&#10;# of the script no matter where it is being called from&#10;WORKING_DIR=&quot;$( cd &quot;$( dirname &quot;${BASH_SOURCE[0]}&quot; )&quot; &amp;&amp; pwd )&quot;&#10;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="FORI" value="for i in $(seq 1 $END); do echo $i; done" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="FOR" value="for i in ${$VAR$}; do echo $i; done" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="SED_DELETE" value="sed '/pattern to match/d' ./infile&#10;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="DOWNCASE" value="| awk '{print tolower($0)}'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="IF_SUCCESS" value="if [ $? -eq 0 ]; then&#10;    echo OK&#10;else&#10;    echo FAIL&#10;fi" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="PRINT_COLOR" value="RED='\033[0;31m'&#10;GREEN='\033[0;32m'&#10;NC='\033[0m' # No Color&#10;printf &quot;I ${RED}love${NC} Stack Overflow\n&quot;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
+

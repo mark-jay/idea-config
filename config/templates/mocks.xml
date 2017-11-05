@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="custom-mocks">
+  <template name="MOCKITOINIT" value="@org.mockito.InjectMocks&#10;private $CLASS_UNDER_TEST$ $FIELD_NAME$;&#10;&#10;@org.testng.annotations.BeforeMethod(alwaysRun=true)&#10;public void configureMocks() {&#10;    org.mockito.MockitoAnnotations.initMocks(this);&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_UNDER_TEST" expression="&quot;ClassUnderTest&quot;" defaultValue="ClassUnderTest" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="decapitalize(CLASS_UNDER_TEST)" defaultValue="field" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="MOCK" value="@org.mockito.Mock&#10;private $DEPENDENCY$ $FIELD$;" toReformat="false" toShortenFQNames="true">
+    <variable name="DEPENDENCY" expression="&quot;DependencyClass&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD" expression="decapitalize(DEPENDENCY)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
+

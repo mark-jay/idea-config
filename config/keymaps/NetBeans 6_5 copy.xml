@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="NetBeans 6.5 copy" parent="NetBeans 6.5">
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="shift control A" />
+  </action>
+  <action id="CompareDirs" />
+  <action id="CompareJars" />
+  <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.DeleteRows">
+    <keyboard-shortcut first-keystroke="control D" />
+  </action>
+  <action id="DatabaseView.CopyAction">
+    <keyboard-shortcut first-keystroke="shift control DOWN" />
+    <keyboard-shortcut first-keystroke="shift control UP" />
+  </action>
+  <action id="DatabaseView.ShowDiff" />
+  <action id="Debugger.EditTypeSource" />
+  <action id="Diagram.SelectAll">
+    <keyboard-shortcut first-keystroke="shift control A" />
+  </action>
+  <action id="Diff.UpdatedFiles" />
+  <action id="EditSourceInNewWindow" />
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="shift control A" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="control D" />
+  </action>
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="DOWN" />
+    <keyboard-shortcut first-keystroke="control N" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift control DOWN" />
+    <keyboard-shortcut first-keystroke="shift control UP" />
+  </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="END" />
+    <keyboard-shortcut first-keystroke="control E" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="HOME" />
+    <keyboard-shortcut first-keystroke="control A" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="UP" />
+    <keyboard-shortcut first-keystroke="control P" />
+  </action>
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt INSERT" />
+  </action>
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="GuiDesigner.Duplicate">
+    <keyboard-shortcut first-keystroke="shift control DOWN" />
+    <keyboard-shortcut first-keystroke="shift control UP" />
+  </action>
+  <action id="IntroduceParameter">
+    <keyboard-shortcut first-keystroke="control alt P" />
+    <keyboard-shortcut first-keystroke="shift alt P" />
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt INSERT" />
+  </action>
+  <action id="ParameterInfo" />
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="shift alt T" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="control M" />
+  </action>
+  <action id="tasks.switch" />
+  <action id="tasks.switch.toolbar" />
+</keymap>
+
